@@ -1,0 +1,14 @@
+{
+  "cursorMode": "phased",
+  "rules": {
+    "docsFolderRequired": true,
+    "phaseDocsRequiredBeforeCode": true,
+    "phaseOrderStrict": true,
+    "requireContextConsolidationIfNoPhase": true
+  },
+  "phaseDocTemplate": "docs/phases/_template.md",
+  "alerts": {
+    "onCodeWithoutPhase": "❌ You must define a phase doc before generating code.",
+    "onMissingDocs": "🚧 Missing /docs or phase files. Create them before proceeding."
+  }
+}
